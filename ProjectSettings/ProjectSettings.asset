@@ -498,6 +498,9 @@ PlayerSettings:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000i
     m_Automatic: 1
+  - m_BuildTarget: LinuxStandaloneSupport
+    m_APIs: 15000000i
+    m_Automatic: 0
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
   openGLRequireES31: 0
@@ -796,12 +799,32 @@ PlayerSettings:
   webWasm2023: 1
   webEnableSubmoduleStrippingCompatibility: 0
   webProgressiveAssetLoading: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: DOTWEEN;DOTWEEN_UITOOLKIT
+    EmbeddedLinux: DOTWEEN;DOTWEEN_UITOOLKIT
+    GameCoreScarlett: DOTWEEN;DOTWEEN_UITOOLKIT
+    GameCoreXboxOne: DOTWEEN;DOTWEEN_UITOOLKIT
+    Kepler: DOTWEEN;DOTWEEN_UITOOLKIT
+    LinuxHeadlessSimulation: DOTWEEN;DOTWEEN_UITOOLKIT
+    Nintendo Switch: DOTWEEN;DOTWEEN_UITOOLKIT
+    Nintendo Switch 2: DOTWEEN;DOTWEEN_UITOOLKIT
+    PS4: DOTWEEN;DOTWEEN_UITOOLKIT
+    PS5: DOTWEEN;DOTWEEN_UITOOLKIT
+    QNX: DOTWEEN;DOTWEEN_UITOOLKIT
+    Standalone: DOTWEEN;DOTWEEN_UITOOLKIT
+    VisionOS: DOTWEEN;DOTWEEN_UITOOLKIT
+    WebGL: DOTWEEN;DOTWEEN_UITOOLKIT
+    Windows Store Apps: DOTWEEN;DOTWEEN_UITOOLKIT
+    XboxOne: DOTWEEN;DOTWEEN_UITOOLKIT
+    iPhone: DOTWEEN;DOTWEEN_UITOOLKIT
+    tvOS: DOTWEEN;DOTWEEN_UITOOLKIT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
-  il2cppCompilerConfiguration: {}
+    Standalone: 1
+  il2cppCompilerConfiguration:
+    Standalone: 2
   il2cppCodeGeneration: {}
   il2cppLTOMode: {}
   il2cppStacktraceInformation: {}
@@ -897,11 +920,11 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: 
+  cloudProjectId: 4914b21e-541c-4f2b-966b-42ad18fb6ef3
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: BlackOut-Blackthrough
+  organizationId: unity_9e80114e22b84b0cef87
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
