@@ -83,6 +83,18 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.probuilder": {
+      "version": "6.1.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "17.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.profiling.core": {
       "version": "1.0.3",
       "depth": 2,
@@ -120,11 +132,11 @@
       }
     },
     "com.unity.sdk.linux-x86_64": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot.base": "1.1.0"
+        "com.unity.sysroot.base": "1.1.1"
       },
       "url": "https://packages.unity.com"
     },
@@ -137,7 +149,7 @@
     },
     "com.unity.settings-manager": {
       "version": "2.1.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -164,7 +176,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot.base": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -190,11 +202,11 @@
       }
     },
     "com.unity.toolchain.linux-x86_64-linux": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot.base": "1.1.0"
+        "com.unity.sysroot.base": "1.1.1"
       },
       "url": "https://packages.unity.com"
     },
